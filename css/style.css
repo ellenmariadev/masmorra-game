@@ -6,21 +6,6 @@ body {
     font-family: 'Inconsolata', monospace;
 }
 
-img { 
-    width: 100%;
-    display: block;
-}
-
-.container {
-    background-color: #ffffff;
-    color: #111111;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    
-}
-
 body, h1, p, ul, li {
     margin: 0;
     padding: 0;
@@ -28,6 +13,37 @@ body, h1, p, ul, li {
 
 a {
     text-decoration: none;
+}
+
+img { 
+    max-width: 100%;
+    display: block;
+}
+
+.bg-black {
+    background-color: #000000;
+}
+
+.f-white {
+    color: #ffffff;
+}
+
+.font-p {
+    text-align: center;
+    padding: 20px 100px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.7;
+    font-family: 'Inconsolata', monospace;
+}
+
+.container {
+    color: #111111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
 }
 
 main {
@@ -43,20 +59,12 @@ h5 {
     font-family: 'Cinzel', cursive;
 }
 
+
 .titulo {
     text-align: center;
     font-size: 64px;
     font-family: 'Cinzel Decorative', cursive;
     font-weight: 400;
-}
-
-p {
-    text-align: center;
-    padding: 20px 100px;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 2;
-    font-family: 'Inconsolata', monospace;
 }
 
 strong {
@@ -74,6 +82,7 @@ strong {
     border-radius: 5px;
     margin-top: 20px;
     font-family: 'Inconsolata', monospace;
+    color: #ffffff;
 }
 
 .botao:hover {
@@ -81,17 +90,26 @@ strong {
 }
 
 /* PERSONAGENS */
+    
+h3 {
+    text-align: center; 
+}
 
 .personagens {
     max-width: 800px;
     display: flex;
-    justify-items: center;
     margin: 0 auto;
     justify-content: space-between;
 }
 
 .personagens h3 {
-    margin-bottom: 40px;
+    font-family: 'Inconsolata', monospace;
+    text-transform: uppercase; 
+    color: #000000;  
+}
+
+.personagens a {
+    cursor: default;
 }
 
 ul {
@@ -103,8 +121,131 @@ li {
     margin-bottom: 20px;;
 }
 
+.habilidades {
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.53);
+}
+
+.habilidades strong {
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.personagem-img {
+    height: 100px;
+    display: flex;
+    place-items: end;
+    margin-bottom: 20px;
+}
+
+.sandy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #B9BCFF;
+    padding: 20px 70px;
+    border-radius: 5px;
+    transition: transform 250ms ease;
+}
+
+.clint {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #BAFFB9;
+    padding: 20px 70px;
+    border-radius: 5px;
+    transition: transform 250ms ease;
+}
+
+.bruna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #FFB9B9;
+    padding: 20px 70px;
+    border-radius: 5px;
+    transition: transform 250ms ease;
+}
+
+.sandy:hover, .clint:hover, .bruna:hover {
+    transform: scale(1.07);
+}
+
+.btn {
+    display: inline-block;
+    border: none;
+    background-color: rgb(138, 14, 31);
+    padding: 6px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: 'Inconsolata', monospace;
+    color: white;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background-color: rgb(173, 40, 58);
+}
+
+/* ENTRADA MASMORRA */
+
+.entradamain {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* INTERIOR MASMORRA */
+
+.interiormasmorra{
+  background: url("../img/bginteriormasmorra.png") no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.interiormasmorra strong {
+    color: #00c230;
+}
 
 .bodyfase3 {
     background: #000000;
     color: #ffffff;
+}
+
+/* CORREDOR MASMORRA */
+
+dt {
+    margin-top: 10px;
+}
+
+dt strong {
+    color: orange;
+}
+
+dd {
+    margin-top: 5px;
+}
+
+/* GAME OVER */
+
+.bg-red {
+    background-color: #FF9696;
+}
+
+.gameover-titulo {
+    text-align: center;
+    font-size: 164px;
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: 400;
+}
+
+.lobo {
+    margin-top: 20px;
 }
