@@ -1,251 +1,255 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
 }
 
-body, h1, p, ul, li {
-    margin: 0;
-    padding: 0;
+body,
+h1,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-img { 
-    max-width: 100%;
-    display: block;
+img {
+  max-width: 100%;
+  display: block;
 }
 
 .bg-black {
-    background-color: #000000;
+  background-color: #000000;
 }
 
 .f-white {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .font-p {
-    text-align: center;
-    padding: 20px 100px;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 1.7;
-    font-family: 'Inconsolata', monospace;
+  text-align: center;
+  padding: 20px 100px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.7;
+  font-family: "Inconsolata", monospace;
 }
 
 .container {
-    color: #111111;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    
+  color: #111111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h5 {
-    text-align: center;
-    font-size: 16px;
-    font-weight: 400;
-    font-family: 'Cinzel', cursive;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Cinzel", cursive;
 }
 
-
 .titulo {
-    text-align: center;
-    font-size: 64px;
-    font-family: 'Cinzel Decorative', cursive;
-    font-weight: 400;
+  text-align: center;
+  font-size: 64px;
+  font-family: "Cinzel Decorative", cursive;
+  font-weight: 400;
 }
 
 strong {
-    font-weight: 700;
-    color: rgb(138, 14, 31);
+  font-weight: 700;
+  color: rgb(138, 14, 31);
 }
 
 .botao {
-    display: inline-block;
-    border: none;
-    background-color: rgb(138, 14, 31);
-    padding: 10px 50px;
-    cursor: pointer;
-    font-size: 20px;
-    border-radius: 5px;
-    margin-top: 20px;
-    font-family: 'Inconsolata', monospace;
-    color: #ffffff;
+  display: inline-block;
+  border: none;
+  background-color: rgb(138, 14, 31);
+  padding: 10px 50px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-family: "Inconsolata", monospace;
+  color: #ffffff;
 }
 
 .botao:hover {
-    background-color: rgb(173, 40, 58);
+  background-color: rgb(173, 40, 58);
 }
 
 /* PERSONAGENS */
-    
+
 h3 {
-    text-align: center; 
+  text-align: center;
 }
 
 .personagens {
-    max-width: 800px;
-    display: flex;
-    margin: 0 auto;
-    justify-content: space-between;
+  max-width: 800px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
 }
 
 .personagens h3 {
-    font-family: 'Inconsolata', monospace;
-    text-transform: uppercase; 
-    color: #000000;  
+  font-family: "Inconsolata", monospace;
+  text-transform: uppercase;
+  color: #000000;
 }
 
 .personagens a {
-    cursor: default;
+  cursor: default;
 }
 
 ul {
-    list-style: none;
-    text-align: center;
+  list-style: none;
+  text-align: center;
 }
 
 li {
-    margin-bottom: 20px;;
+  margin-bottom: 20px;
 }
 
 .habilidades {
-    font-weight: 700;
-    color: rgba(0, 0, 0, 0.53);
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.53);
 }
 
 .habilidades strong {
-    font-weight: 700;
-    color: rgba(0, 0, 0, 0.9);
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .personagem-img {
-    height: 100px;
-    display: flex;
-    place-items: end;
-    margin-bottom: 20px;
+  height: 100px;
+  display: flex;
+  place-items: end;
+  margin-bottom: 20px;
 }
 
 .sandy {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    background-color: #B9BCFF;
-    padding: 20px 70px;
-    border-radius: 5px;
-    transition: transform 250ms ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #b9bcff;
+  padding: 20px 70px;
+  border-radius: 5px;
+  transition: transform 250ms ease;
 }
 
 .clint {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    background-color: #BAFFB9;
-    padding: 20px 70px;
-    border-radius: 5px;
-    transition: transform 250ms ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #baffb9;
+  padding: 20px 70px;
+  border-radius: 5px;
+  transition: transform 250ms ease;
 }
 
 .bruna {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    background-color: #FFB9B9;
-    padding: 20px 70px;
-    border-radius: 5px;
-    transition: transform 250ms ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #ffb9b9;
+  padding: 20px 70px;
+  border-radius: 5px;
+  transition: transform 250ms ease;
 }
 
-.sandy:hover, .clint:hover, .bruna:hover {
-    transform: scale(1.07);
+.sandy:hover,
+.clint:hover,
+.bruna:hover {
+  transform: scale(1.07);
 }
 
 .btn {
-    display: inline-block;
-    border: none;
-    background-color: rgb(138, 14, 31);
-    padding: 6px 20px;
-    cursor: pointer;
-    font-size: 20px;
-    border-radius: 5px;
-    font-family: 'Inconsolata', monospace;
-    color: white;
-    margin-bottom: 30px;
-    font-weight: 500;
+  display: inline-block;
+  border: none;
+  background-color: rgb(138, 14, 31);
+  padding: 6px 20px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 5px;
+  font-family: "Inconsolata", monospace;
+  color: white;
+  margin-bottom: 30px;
+  font-weight: 500;
 }
 
 .btn:hover {
-    background-color: rgb(173, 40, 58);
+  background-color: rgb(173, 40, 58);
 }
 
 /* ENTRADA MASMORRA */
 
 .entradamain {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /* INTERIOR MASMORRA */
 
-.interiormasmorra{
+.interiormasmorra {
   background: url("../img/bginteriormasmorra.png") no-repeat center center fixed;
   background-size: cover;
   min-height: 100vh;
 }
 
 .interiormasmorra strong {
-    color: #00c230;
+  color: #00c230;
 }
 
 .bodyfase3 {
-    background: #000000;
-    color: #ffffff;
+  background: #000000;
+  color: #ffffff;
 }
 
 /* CORREDOR MASMORRA */
 
 dt {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 dt strong {
-    color: orange;
+  color: orange;
 }
 
 dd {
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
 /* GAME OVER */
 
 .bg-red {
-    background-color: #FF9696;
+  background-color: #ff9696;
 }
 
 .gameover-titulo {
-    text-align: center;
-    font-size: 164px;
-    font-family: 'Cinzel Decorative', cursive;
-    font-weight: 400;
+  text-align: center;
+  font-size: 164px;
+  font-family: "Cinzel Decorative", cursive;
+  font-weight: 400;
 }
 
 .lobo {
-    margin-top: 20px;
+  margin-top: 20px;
 }
