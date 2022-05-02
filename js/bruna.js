@@ -19,7 +19,7 @@ function brunaSegundaFase() {
       `;
   promptEscolha(
     msg,
-    "../../gameover/esquerdagameover.html",
+    "../../gameover/esquerda-gameover.html",
     "corredormasmorra.html"
   );
 }

@@ -55,6 +55,15 @@ main {
   align-items: center;
 }
 
+/* INICIO */
+
+.indexmain {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 h5 {
   text-align: center;
   font-size: 16px;
@@ -82,7 +91,7 @@ strong {
   cursor: pointer;
   font-size: 20px;
   border-radius: 5px;
-  margin-top: 20px;
+  margin-top: 15px;
   font-family: "Inconsolata", monospace;
   color: #ffffff;
 }
@@ -93,21 +102,22 @@ strong {
 
 /* PERSONAGENS */
 
-h3 {
-  text-align: center;
-}
-
 .personagens {
   max-width: 800px;
   display: flex;
   margin: 0 auto;
-  justify-content: space-between;
+  gap: 40px;
+}
+
+#dica {
+  margin-top: 0px;
 }
 
 .personagens h3 {
   font-family: "Inconsolata", monospace;
   text-transform: uppercase;
   color: #000000;
+  text-align: center;
 }
 
 .personagens a {
@@ -140,43 +150,32 @@ li {
   margin-bottom: 20px;
 }
 
-.sandy {
+.card {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background-color: #b9bcff;
   padding: 20px 70px;
   border-radius: 5px;
   transition: transform 250ms ease;
+}
+
+.sandy {
+  background-color: #b9bcff;
 }
 
 .clint {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
   background-color: #baffb9;
-  padding: 20px 70px;
-  border-radius: 5px;
-  transition: transform 250ms ease;
 }
 
 .bruna {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
   background-color: #ffb9b9;
-  padding: 20px 70px;
-  border-radius: 5px;
-  transition: transform 250ms ease;
 }
 
 .sandy:hover,
 .clint:hover,
 .bruna:hover {
-  transform: scale(1.07);
+  transform: scale(1.05);
 }
 
 .btn {
@@ -211,16 +210,10 @@ li {
 .interiormasmorra {
   background: url("../img/bginteriormasmorra.png") no-repeat center center fixed;
   background-size: cover;
-  min-height: 100vh;
 }
 
 .interiormasmorra strong {
   color: #00c230;
-}
-
-.bodyfase3 {
-  background: #000000;
-  color: #ffffff;
 }
 
 /* CORREDOR MASMORRA */
@@ -252,4 +245,16 @@ dd {
 
 .lobo {
   margin-top: 20px;
+}
+
+/* VITÓRIA */
+
+.vitoria strong {
+  color: #00c230;
+}
+
+.redesocial {
+  display: flex;
+  gap: 30px;
+  margin: 40px 0 20px 0;
 }
