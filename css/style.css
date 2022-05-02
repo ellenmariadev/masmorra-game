@@ -105,12 +105,14 @@ strong {
 .personagens {
   max-width: 800px;
   display: flex;
+  flex-wrap: wrap;
   margin: 0 auto;
   gap: 40px;
 }
 
 #dica {
   margin-top: 0px;
+  text-align: center;
 }
 
 .personagens h3 {
@@ -218,6 +220,10 @@ li {
 
 /* CORREDOR MASMORRA */
 
+dl {
+  padding: 0px 20px;
+}
+
 dt {
   margin-top: 10px;
 }
@@ -257,4 +263,27 @@ dd {
   display: flex;
   gap: 30px;
   margin: 40px 0 20px 0;
+}
+
+/* MEDIA QUERY */
+
+@media (max-width: 800px) {
+  .personagens {
+    flex-direction: column;
+  }
+  .font-p {
+    font-size: 18px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .titulo {
+    font-size: 48px;
+  }
+  .gameover-titulo {
+    font-size: 100px;
+  }
+
+  .entradamain img {
+    height: 25%;
+  }
 }
