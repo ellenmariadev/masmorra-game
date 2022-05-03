@@ -1,4 +1,4 @@
-# 🧛‍ A Masmorra da Colina 🧛‍♂️
+# A Masmorra da Colina 🦇
 Projeto final desenvolvido no módulo 1 do curso de desenvolvimento WEB na Resilia Educação.
 
 ## Requisitos
