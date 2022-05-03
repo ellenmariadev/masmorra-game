@@ -11,18 +11,21 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Cinzel&family=Cinzel+Decorative:wght@400;700&family=Inconsolata:wght@300;400;500&display=swap"
         rel="stylesheet">
+    <link rel="shortcut icon" href="../../img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../../css/style.css">
 
-    <link rel="stylesheet" href="../css/style.css">
+    <script src="../../js/bruna.js"></script>
+    <script src="../../js/script.js"></script>
+
     <title>A Masmorra da Colina</title>
 </head>
 
-<body class="container bg-red">
+<body class="interiormasmorra">
     <main>
-        <h1 class="gameover-titulo">game over</h1>
-        <p class="font-p">Você não conseguiu hackear o sistema corretamente. O alarme foi ativado e o vampiro acordou.
-        </p>
-        <img src="../img/alfredo.png" alt="">
-        <a class="botao" href="../escolherplayer.html">TENTE NOVAMENTE</a>
+        <p class="font-p f-white"><strong>PARABÉNS!</strong> VOCÊ CONSEGUIU ENTRAR NA MASMORRA.</p>
+        <p class="font-p f-white">É possível ouvir rugidos vindo da esquerda e na direita você consegue ouvir alguém
+            chorando. <br>Qual caminho quer seguir?</p>
+        <button class="btn" onclick="brunaSegundaFase();">ESCOLHER</button>
     </main>
 </body>
 

@@ -5,11 +5,7 @@ function brunaPrimeiraFase() {
       2. Hackear o sistema de segurança da porta. 
       `;
 
-  promptEscolha(
-    msg,
-    "interiormasmorra.html",
-    "../../gameover/hack-gameover.html"
-  );
+  promptEscolha(msg, "interiormasmorra.html", "../gameover/hack-gameover.html");
 }
 
 function brunaSegundaFase() {
@@ -19,7 +15,7 @@ function brunaSegundaFase() {
       `;
   promptEscolha(
     msg,
-    "../../gameover/esquerda-gameover.html",
+    "../gameover/esquerda-gameover.html",
     "corredormasmorra.html"
   );
 }
@@ -29,5 +25,5 @@ function brunaTerceiraFase() {
       1. Hackear a porta vermelha e descobrir a senha.
       2. Convencer a garota a passar a senha. 
       `;
-  promptEscolha(msg, "../../gameover/hack-gameover.html", "../../vitoria.html");
+  promptEscolha(msg, "../gameover/hack-gameover.html", "../vitoria.html");
 }

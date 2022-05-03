@@ -278,12 +278,12 @@ dd {
   }
   .titulo {
     font-size: 48px;
+    padding: 5px;
   }
   .gameover-titulo {
     font-size: 100px;
   }
-
-  .entradamain img {
-    height: 25%;
+  .entradamain {
+    justify-content: space-around;
   }
 }

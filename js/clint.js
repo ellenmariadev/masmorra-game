@@ -7,7 +7,7 @@ function clintPrimeiraFase() {
 
   promptEscolha(
     msg,
-    "../../gameover/arvore-gameover.html",
+    "../gameover/arvore-gameover.html",
     "interiormasmorra.html"
   );
 }
@@ -19,7 +19,7 @@ function clintSegundaFase() {
     `;
   promptEscolha(
     msg,
-    "../../gameover/esquerda-gameover.html",
+    "../gameover/esquerda-gameover.html",
     "corredormasmorra.html"
   );
 }
@@ -29,5 +29,5 @@ function clintTerceiraFase() {
     1. Hackear a porta vermelha e descobrir a senha.
     2. Convencer a garota a passar a senha. 
     `;
-  promptEscolha(msg, "../../gameover/hack-gameover.html", "../../vitoria.html");
+  promptEscolha(msg, "../gameover/hack-gameover.html", "../vitoria.html");
 }
